@@ -32,7 +32,7 @@
    <enum>Qt::DefaultContextMenu</enum>
   </property>
   <property name="windowTitle">
-   <string>killPID</string>
+   <string>KillPID v-1.0.0</string>
   </property>
   <widget class="QComboBox" name="comboBox">
    <property name="geometry">
@@ -154,15 +154,15 @@
    <property name="geometry">
     <rect>
      <x>20</x>
-     <y>280</y>
+     <y>274</y>
      <width>121</width>
-     <height>31</height>
+     <height>21</height>
     </rect>
    </property>
    <property name="font">
     <font>
      <family>DejaVu Sans Mono</family>
-     <pointsize>18</pointsize>
+     <pointsize>16</pointsize>
      <italic>true</italic>
     </font>
    </property>
@@ -194,6 +194,24 @@
    </property>
    <property name="orientation">
     <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>294</y>
+     <width>141</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <italic>true</italic>
+    </font>
+   </property>
+   <property name="text">
+    <string>By ZL2APV ...</string>
    </property>
   </widget>
  </widget>

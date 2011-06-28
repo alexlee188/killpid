@@ -28,15 +28,18 @@ Choose the process you want and click Add to List button. The process
 showing in the comboBox edit line will be copied to the list. It is also
 possible to type the name of a process whether running or not in the
 comboBox edit line and add this to the list in the top section.
-Kill List:
-Remove Item:
-Save List:
 
-Top section commands
+Top section commands.
+
+Kill List:
 Will kill any running processes in the list. If there are more than one of the
 same name it will kill them all. You will be presented with a sanity check
 listing the processes to be killed and an opportunity to cancel.
+
+Remove Item:
 Click on the item to be removed and click the Remove Item button.
+
+Save List:
 Saves the list to ~/.config/freesoftware, i.e. the same place as the sdr-shell
 config file. Each click of Save List button overwrites the previous config.
 On startup the config file is read into the top list. If you want a blank list
